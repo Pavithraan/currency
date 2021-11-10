@@ -1,0 +1,72 @@
+{
+  "name": "@meio/node-currency-swap",
+  "description": "Exchange rates library for NodeJS",
+  "version": "1.0.6",
+  "keywords": [
+    "currency",
+    "swap",
+    "rates",
+    "exchange",
+    "currency switcher",
+    "node currency",
+    "currency exchange",
+    "excahnge rates",
+    "currency conversion",
+    "multi provider"
+  ],
+  "maintainers": [
+    "Mohamed Meabed <meabed@me.io> (https://me.io)",
+    "Muhammad Khurrum Qureshi"
+  ],
+  "bugs": {
+    "url": "https://github.com/me-io/node-currency-swap/issues"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git+https://github.com/me-io/node-currency-swap.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "Apache Software License v2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "homepage": "https://github.com/me-io/node-currency-swap",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "main": "./lib/node-currency-swap.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec -t 10000 'test/**/*.js'",
+    "test-travis": "./node_modules/.bin/mocha --reporter spec -t 10000 'test/**/*.js'"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "big.js": "^5.1.2",
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.11",
+    "memory-cache": "^0.2.0",
+    "sprintf-js": "^1.1.1",
+    "sync-request": "^6.0.0",
+    "then-request": "^6.0.0",
+    "xmldoc": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "mocha": "^5.2.0",
+    "codecov.io": "^0.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/me-io/node-currency-swap.git"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT"
+}
